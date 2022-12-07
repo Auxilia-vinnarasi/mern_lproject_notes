@@ -1,0 +1,38 @@
+mkdir prj_name
+cd proj_name npx create-react-app client
+cd client
+npm start - localhost:3000 its running
+delete app.js inside app 
+get rid of inside index.css,inside app.css
+delete app.css
+get reid of all comments in public->index.html
+change title
+npm modules installation
+axios-for performing the api request
+npm i axios antd redux react-redux @reduxjs/toolkit react-router-dom
+building ui components - antd
+normal css styling purpose - Bootstrap
+bootstrap csn -->css ,copy paste link in index.html->head
+icons-remix icon
+remix icon website, get started,copy paste css link in index.html head
+NOw we have all modules we gonna use it for frontend
+checking antd is working or not--->go to antd website copy paste button in app.js-its working good
+checking bootstrap working or not-->app m-5
+src->pages folder,reusable thing->components,external stylesheet,image,css file->resources,redux-state management
+backend setup-npm init
+npm i express(backend_routing), mongoose(db comm),jsonwebtoken(authentication),bcryptjs(hashing the pw),nodemailer-sendong bus tkt,notification to the mailid.
+write entry point for backend ie server.js
+create .env file, npm i dotenv, npm i nodemon,require dotenv in server.js
+route file->nodemon server-->App is listening on port.
+backend folder structure-->route,models,config(connection db,third party library connection),utils(helpers),middlewares
+mongodb atlas-create db, go to overview connect..then select connect with mongodb compass copy paste in compass gui.
+mongodb connection
+import {BrowserRouter,Routes,Route} from "react-router-dom";in App.js and add paths also;like <Route path="/" element={<Home/>}/>
+Resources:-->auth.css(for specific page and components) global css- whole application styling.
+login ,registration,import global css here.
+font-google fonts-montserrat-select this medium-500 import this url in index.css and *{font-family: 'Montserrat', sans-serif!important}make it important
+index.css-->:root{--primary:#27493e}
+written api in backend;
+to connect backend with frontend..
+client,src-->package.json-->"proxy":"http://localhost:5000/"
+after adding anything in the package.json u have to restart the server.
